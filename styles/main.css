@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to top, #5BB9F7 0%, #FFFFFF 100%) no-repeat #5BB9F7;
+    color: black;
+    font: normal 20px arial, helvetica, sans-serif;;
+    text-align: center;
+}
+
+h1,
+.controlBlock {
+    margin-top: 40px;
+}
+
+canvas {
+    margin-top: 10px;
+}
+
+a {
+    margin-left: -7px;
+    outline: medium none;
+    padding: 12px 17px;
+    color: #fcfffc;
+    font-size: 14px;
+    background: #5bb9f7;
+    text-decoration: none;
+    border: none;
+}
+
+a:hover {
+    background: #3cb0fd;
+    cursor: pointer;
+}
+
+.runButton {
+    background: #008000;
+}
+
+.runButton:hover {
+    background: #006400;
+}
+
